@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="text"><h4>New Message</h4>
+        <div class="circle">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-solid fa-circle"></i>
+        </div>
+    </div>
+    <div class="general">
+        <input type="text" placeholder="To:" id="text"> <br>
+        <input type="text" placeholder="Subject:" id="subject"> <br>
+        <!-- <input type="text" placeholder="Leave a message" id="leave"> <br> -->
+        <textarea name="" id="leave" placeholder="Leave a message" maxlength="400"></textarea> <br>
+        <p>Characters Count: <span id="count">0</span>/100</p>
+        <p id="end"></p>
+        <button>Submit</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
