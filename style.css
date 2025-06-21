@@ -8,13 +8,13 @@
     /* background-color: rgb(252, 252, 255); */
 }
 
-.circle{
+/* .circle{
     display: flex;
     color: whitesmoke;
     position: absolute;
     top: 30px;
     left: 890px;
-}
+} */
 
 .text{
     background-color: black;
@@ -52,4 +52,10 @@ button {
     background-color: black;
     color: whitesmoke;
     border-radius: 4px;
+}
+
+@media (max-screen:780px){
+    .general, .text, #text, #subject, #leave{
+        width: 200px;
+    }
 }
